@@ -7,6 +7,7 @@ public class ReadingDataFromCommandLineTest
 	@Test(groups = "smoke")
 	public void readingDataFromCommandLineTest()
 	{
+		System.out.println("Execute Poll SCM in Jenkins");
 		String URL = System.getProperty("url");
 		String UN = System.getProperty("username");
 		String PWD = System.getProperty("password");
@@ -18,6 +19,7 @@ public class ReadingDataFromCommandLineTest
 	@Test(groups = "regression")
 	public void regression()
 	{
+		System.out.println("Execute Poll SCM in Jenkins");
 		System.out.println("it is a regression test");
 	}
 	
